@@ -36,29 +36,28 @@ li a:hover
   {
     background-color:rgb(128, 123, 123);
   }
-table
+
+.tab
   {
-    margin-right: 200px;
-    margin-left:200px;
-    margin-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
   }
 
-td
+.eile1, .eile2, .eile3, .eile4
   {
     background-color: white;
     border-style: solid;
     border-color: gray;
     border-width: 15px;
     padding: 10px;
-    height: 80px;
+    height: auto;
   }
-div
-  {
-    width: 45%;
-  }
+
 .op, .opa
   {
-    display: inline-block;
+    display: inline-block; width: 45%;
   }
 .op 
   {
