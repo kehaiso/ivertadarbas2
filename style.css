@@ -37,7 +37,7 @@ li a:hover
     background-color:rgb(128, 123, 123);
   }
 
-.tab
+main
   {
     width: 60%;
     margin: 0 auto;
@@ -45,7 +45,7 @@ li a:hover
     
   }
 
-.eile1, .eile2, .eile3, .eile4
+div
   {
     background-color: white;
     border-style: solid;
@@ -53,13 +53,14 @@ li a:hover
     border-width: 15px;
     padding: 10px;
     height: auto;
+    display: block;
   }
 
-.op, .opa
+span 
   {
-    display: inline-block; width: 45%;
-  }
-.op 
-  {
-    padding-right: 25px;
+    display: inline-block; 
+    width: 45%;
+    padding: 10px;
+    height: auto;
+    vertical-align: middle;
   }
